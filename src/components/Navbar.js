@@ -23,7 +23,8 @@ const Navbar = () => {
         alignItems="flex-end"
       >
         <Link to='/' className='link'>Home</Link>
-        <a href='#excercises'>Excercises</a>
+        <a href='/' onClick={() => window.scrollTo( {top: 1800, left: 100, behavior: 'smooth'})}>Excercises</a>
+        <a href='/' onClick={() => window.scrollTo( {top: 1800, left: 100, behavior: 'smooth'})}>Body Calculator</a>
       </Stack>
     </Stack>
   )
