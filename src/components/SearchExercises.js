@@ -53,7 +53,11 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
       >
         Awesome Excercises You <br /> Should Know
       </Typography>
-      <Box>
+      <Box
+        sx={{
+          alignItems: { xs: 'center'}
+        }}
+      >
         <TextField 
           sx={{
             input: { fontWeight: '700', border: 'none', borderRadius: '4px'},
